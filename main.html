@@ -3,13 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css"/>
-    <title>Place Item in Center</title>
+    <title>Place Item in Center </title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .Holder{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            border: 1px solid purple;
+           
+        }
+        .item-1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: red;
+            border: 1px solid black;
+            width: 100px;
+            height: 100px;
+        }
+    </style>
 </head>
 <body>
-    <div class="holder">
-        <div class="item item-1">
-            Place me in center using flex
+    <div class="Holder" >
+        <div class="item-1">
+            TEXT
         </div>
     </div>
 </body>
